@@ -1,0 +1,48 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #ececec;
+  }
+  
+
+  .heading {
+    background-color: #9b9b9b;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: groove;
+  }
+  
+  input {
+    width: 75%;
+  }
+  
+  #city-list {
+    width: 22rem;
+  }
+  
+  #city-date-icon,
+  #city-name,
+  #current-icon {
+      display: flex;
+      flex-direction: row;
+      justify-content: center/space-around/space-between;
+  }
+  
+  h6 {
+    font-weight: bold;
+  }
+  
+  h4 {
+      margin: 5px;
+  }
+  
+  #forecast-cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center/space-between;
+  }
+  
+  .forecast {
+      margin: 10px;
+  }
