@@ -160,6 +160,7 @@ function createCityList(citySearchList) {
   
       if (city != "") {
         
+        
         citySearchList[city] = true;
       localStorage.setItem("citySearchList", JSON.stringify(citySearchList));
   
